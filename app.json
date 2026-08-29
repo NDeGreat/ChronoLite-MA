@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ChronoLite",
+    "slug": "chronolite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ],
+      "package": "com.ndegreat.chronolite"
+    },
+    "web": {},
+    "plugins": [
+      "expo-asset",
+      "expo-status-bar",
+      "expo-font",
+      "expo-audio",
+      "expo-notifications"
+    ]
+  }
+}
